@@ -1,0 +1,67 @@
+*{
+  font-family: Lato;
+}
+.top-bar{
+  background: #81B078;
+  padding: 10px;
+  padding-left: 50px;
+}
+.red{
+  color:red;
+}
+.top-history{
+  list-style: none;
+  display: inline-flex;
+  padding: 0px;
+}
+.top-history li::before{
+  content: '>';
+  padding-left: 5px;
+}
+
+.left-navigation{
+  list-style: none;
+  width: 20%;
+  float:left;
+}
+
+.left-navigation li{
+  border: 1px solid green;
+  padding: 10px;
+  border-bottom: 0.5px solid #81B078;
+  transition: all 0.5s;
+}
+
+.main-content{
+  width: 75%;
+  float:right;
+  margin-top: 20px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  border-bottom: 10px;
+}
+.left-navigation li:hover{
+  border-bottom: 10px solid #81B078;
+  transition: all 0.5s;
+}
+
+.health-image{
+  width: 100%;
+}
+
+.image-slider{
+  width: 300px;
+}
+
+.image-slider img{
+  width:300px;
+}
+
+.awareness-poster{
+  border:1px solid black;
+  text-align: center;
+  background: url('images/pattern-bg.jpg');
+}
